@@ -1,0 +1,22 @@
+body {
+    background-color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-section {
+    background-image: url('../images/metal-webb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 70vh;
+    background-position: center;
+
+}
+
+.hero-section a {
+    text-decoration: none;
+    color: #fff;
+}
