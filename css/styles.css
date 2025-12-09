@@ -1,0 +1,65 @@
+body {
+    background-color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-section {
+    background-image: url('../images/metal-webb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 70vh;
+    background-position: center;
+
+}
+
+.hero-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    background-color: #FF8000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.kids-info {
+    color: #FF3C7F;
+    text-transform: uppercase;
+}
+
+.teachers-info {
+    color: #4AC6FF;
+    text-transform: uppercase;
+}
+
+.researchers-info {
+    color: #316491;
+    text-transform: uppercase;
+}
+
+.involvement {
+    color: #FF8000;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.support {
+    color: #316491;
+    text-transform: uppercase;
+}
+
+.volunteer {
+    color: #FF8000;
+    text-transform: uppercase;
+}
+
+.internships {
+    color: #4AC6FF;
+    text-transform: uppercase;
+}
