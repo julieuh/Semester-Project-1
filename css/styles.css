@@ -25,14 +25,14 @@ header a {
     background-image: url('../images/metal-webb.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 70vh;
+    min-height: 30vh; /*Change to grater value (70vh?) when moving on to bigger screens*/
     background-position: center;
 
 }
 
 .hero-section a {
     text-decoration: none;
-    color: #fff;
+    color: #24a7ff91;
 }
 
 .banner {
