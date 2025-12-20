@@ -77,3 +77,14 @@ header a {
     color: #4AC6FF;
     text-transform: uppercase;
 }
+
+footer {
+    background-color: #FF8000;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #fff;
+}
