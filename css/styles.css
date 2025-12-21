@@ -43,7 +43,10 @@ header a {
     background-color: #FF8000;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .kids-info {
