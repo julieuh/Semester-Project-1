@@ -49,42 +49,6 @@ header a {
     font-weight: 500;
 }
 
-.kids-info {
-    color: #FF3C7F;
-    text-transform: uppercase;
-}
-
-.teachers-info {
-    color: #4AC6FF;
-    text-transform: uppercase;
-}
-
-.researchers-info {
-    color: #316491;
-    text-transform: uppercase;
-}
-
-.involvement {
-    color: #FF8000;
-    text-transform: uppercase;
-    font-weight: lighter;
-}
-
-.support {
-    color: #316491;
-    text-transform: uppercase;
-}
-
-.volunteer {
-    color: #FF8000;
-    text-transform: uppercase;
-}
-
-.internships {
-    color: #4AC6FF;
-    text-transform: uppercase;
-}
-
 footer {
     background-color: #FF8000;
     color: #fff;

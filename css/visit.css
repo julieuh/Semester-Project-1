@@ -5,6 +5,8 @@ main {
 
 main h3 {
     margin-bottom: 0px;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 main p {

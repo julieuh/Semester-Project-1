@@ -2,3 +2,55 @@ main {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.kids-info h2 {
+    color: #FF3C7F;
+    text-transform: uppercase;
+}
+.kids-info a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.link-visit {
+    background-color: #FF3C7F;
+}
+.link-exhibitions {
+    background-color: #FF8000
+    ;
+}
+
+
+.teachers-info {
+    color: #4AC6FF;
+    text-transform: uppercase;
+}
+
+.researchers-info {
+    color: #316491;
+    text-transform: uppercase;
+}
+
+.involvement {
+    color: #FF8000;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.support {
+    color: #316491;
+    text-transform: uppercase;
+}
+
+.volunteer {
+    color: #FF8000;
+    text-transform: uppercase;
+}
+
+.internships {
+    color: #4AC6FF;
+    text-transform: uppercase;
+}
