@@ -1,3 +1,21 @@
+
+
+.hero-text {
+    position: absolute;
+    max-width: 15rem;
+    top: 20%;
+    left: 4%;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.hero-text p {
+    margin: 0;
+}
+
 .index-info {
     margin-left: 1rem;
     margin-right: 1rem;
