@@ -49,6 +49,10 @@ header a {
     font-weight: 500;
 }
 
+.space-between {
+    margin-top: 1rem;
+}
+
 footer {
     background-color: #FF8000;
     color: #fff;
@@ -70,5 +74,10 @@ footer a {
     body,
     footer {
         font-size: 0.9rem;
+    }
+
+    footer p {
+        margin-bottom: 3px;
+        margin-top: 3px;
     }
 }
