@@ -3,8 +3,8 @@
 .hero-section {
     background-image: url('../images/metal-webb.jpg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    min-height: 30vh; /*Change to grater value (70vh?) when moving on to bigger screens*/
+    background-size: cover;
+    min-height: 40vh; /*Change to grater value (70vh?) when moving on to bigger screens*/
     background-position: center;
 }
 
