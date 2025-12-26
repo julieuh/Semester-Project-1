@@ -126,23 +126,19 @@
 
 @media (max-width: 413px) {
 
-.hero-section {
-    min-height: 35vh;
-}
-
 .hero-text {
     max-width: 14rem;
-    top: 24%;
+    top: 28%;
     font-size: 0.9rem;
     padding: 0.8rem;
 }
 
 .cta-events {
-    top: 36%;
+    top: 43%;
 }
 
 .cta-exhibitions {
-    top: 43%;
+    top: 50%;
 }
 }
 
