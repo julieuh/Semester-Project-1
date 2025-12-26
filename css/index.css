@@ -3,7 +3,7 @@
 .hero-text {
     position: absolute;
     max-width: 15rem;
-    top: 20%;
+    top: 22%;
     left: 4%;
     color: #000;
     background-color: rgba(255, 255, 255, 0.6);
@@ -14,6 +14,27 @@
 
 .hero-text p {
     margin: 0;
+}
+
+.cta-buttons {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta-events {
+    background-color: #4AC6FF;
+    top: 34%;
+    left: 4%;
+    padding: 0.5rem 2.5rem;
+}
+
+.cta-exhibitions {
+    background-color: #3CE629;
+    top: 40%;
+    left: 4%;
+    padding: 0.5rem 1.5rem;
 }
 
 .index-info {
