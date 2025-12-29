@@ -15,6 +15,15 @@ body {
     margin-left: 1rem;
 }
 
+.menu-links {
+    list-style-type: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 10px 20px;
+}
+
 img {
     max-width: 100%;
     height: auto;
