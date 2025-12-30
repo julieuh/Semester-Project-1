@@ -29,6 +29,10 @@
     margin: 0;
 }
 
+.orange-cta {
+    color: #FF8000;
+}
+
 .cta-buttons {
     position: absolute;
     color: #fff;
