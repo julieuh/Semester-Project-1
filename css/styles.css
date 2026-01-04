@@ -7,7 +7,7 @@ body {
 
 .logo {
     font-family: 'Megrim', cursive;
-    font-size: 1.5rem;
+    font-size: clamp(1.4rem, 6vw, 6rem);
     font-weight: 500;
     color: #000;
     text-decoration: none;
@@ -83,8 +83,17 @@ footer a {
         max-width: 1200px;
     }
 
+    .menu-links {
+        font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+        justify-content: left;
+    }
+
     body,
     footer {
         font-size: 1rem;
     }
 }
+
+
+
+/* clamp for menu-links og H1 .logo virker ikke! */
