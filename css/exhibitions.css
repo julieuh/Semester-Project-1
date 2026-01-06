@@ -95,4 +95,14 @@ main p {
     display: block;
 }   
 
-/*Top-img img ser ikke ut til å få gjennom all stilen på riktig måte. Den er linket riktig, og virker, men jeg får ikke object-fit til å virke som jeg ønsker.*/
+
+
+@media (max-width: 600px) {
+  .exhibition-menu {
+    flex-direction: column;
+  }
+
+  .exhibition-top-img {
+    order: -1;
+  }
+}

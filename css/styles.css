@@ -7,7 +7,7 @@ body {
 
 .logo {
     font-family: 'Megrim', cursive;
-    font-size: clamp(1.4rem, 6vw, 6rem);
+    font-size: clamp(1.4rem, 5.5vw, 5.5rem);
     font-weight: 500;
     color: #000;
     text-decoration: none;
@@ -86,6 +86,7 @@ footer a {
     .menu-links {
         font-size: clamp(1.2rem, 1.8vw, 1.8rem);
         justify-content: left;
+        gap: clamp(2.5rem, 3.3vw, 4rem);
     }
 
     body,
