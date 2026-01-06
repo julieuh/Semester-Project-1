@@ -1,34 +1,35 @@
 
 
-
+/* Background image */
 .hero-section {
     background-image: url('../images/metal-webb.jpg');
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh; /*Change to grater value (70vh?) when moving on to bigger screens*/
     background-position: center;
+    padding: 2rem;
 }
 
-.hero-section a {
-    text-decoration: none;
-}
-
+/* Text container */
 .hero-text {
     position: absolute;
-    max-width: 15rem;
-    top: 22%;
+    max-width: 20rem;
+    top: 20%;
     left: 4%;
     color: #000;
     background-color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 500;
     padding: 1rem;
+    border-radius: 4px;
 }
 
 .hero-text p {
     margin: 0;
 }
 
+/* CTA buttons */
 .orange-cta {
     color: #FF8000;
 }
@@ -38,18 +39,20 @@
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    padding: 0.6rem 2rem;
+    border-radius: 4px;
 }
 
 .cta-events {
     background-color: #4AC6FF;
-    top: 34%;
+    top: 40%;
     left: 4%;
     padding: 0.5rem 2.5rem;
 }
 
 .cta-exhibitions {
     background-color: #3CE629;
-    top: 40%;
+    top: 50%;
     left: 4%;
     padding: 0.5rem 1.5rem;
 }
@@ -129,22 +132,20 @@
 
 
 
-@media (max-width: 413px) {
+@media (min-width: 250px) {
 
 .hero-text {
-    max-width: 14rem;
-    top: 28%;
-    font-size: 0.9rem;
-    padding: 0.8rem;
+    top: 15%;
 }
 
 .cta-events {
-    top: 43%;
+    top: 45%;
 }
 
 .cta-exhibitions {
-    top: 50%;
+    top: 60%;
 }
+
 }
 
 @media (max-width: 600px) {
