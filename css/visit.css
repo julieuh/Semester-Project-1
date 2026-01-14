@@ -15,8 +15,7 @@ main p {
 }
 
 .visit-location img {
-    max-width: 40%;
-    margin-left: 1rem;
+    max-width: 100% auto;
     display: inline-block;
     vertical-align: bottom;
 }

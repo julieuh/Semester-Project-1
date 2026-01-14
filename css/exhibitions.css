@@ -62,7 +62,8 @@ main p {
 }
 
 .btn {
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 1rem 1.5rem;
   color: white;
   text-decoration: none;
@@ -100,6 +101,17 @@ main p {
 @media (max-width: 600px) {
   .exhibition-menu {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .exhibition-buttons {
+    align-items: center;
+  }
+
+  .btn {
+    width: auto;
+    min-width: 250px;
   }
 
   .exhibition-top-img {
