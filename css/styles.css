@@ -15,7 +15,72 @@ body {
     margin-left: 1rem;
 }
 
-.menu-links {
+
+/* Hamburger menu --------------------------------------------------*/
+/*nav*/
+.hamburger-menu {
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+/*nav ul*/
+.hamburger-menu ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*nav li*/
+.hamburger-menu li {
+    height: 50px;
+}
+
+.hamburger-menu li:first-child {
+    margin-right: auto;
+}
+
+/*nav a*/
+.hamburger-menu a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+/*sidebar*/
+.hamburger-list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+/*sidebar li*/
+.hamburger-list li {
+    width: 100%;
+}
+/*sidebar a*/
+.hamburger-list a {
+    width: 100%;
+}
+
+.hamburger-menu a:hover {
+    background-color: #FF8000;
+    color: #fff;
+}
+
+/*HAMBURGER DRITEN ENDER HER -----------------------------------------*/
+
+.desktop-menu {
     list-style-type: none;
     font-weight: 500;
     display: flex;
@@ -67,7 +132,8 @@ footer a {
 }
 
 
-
+/* mobile device by default */
+.desktop-menu { display: none; }
 
 
 @media (max-width: 600px) {
@@ -88,7 +154,7 @@ footer a {
         max-width: 1200px;
     }
 
-    .menu-links {
+    .desktop-menu {
         font-size: clamp(1.2rem, 1.8vw, 1.8rem);
         justify-content: left;
         gap: clamp(2.5rem, 3.3vw, 4rem);
@@ -98,4 +164,14 @@ footer a {
     footer {
         font-size: 1rem;
     }
+}
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
 }
