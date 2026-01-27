@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,7 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Megrim&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
@@ -28,7 +27,60 @@
   <body>
     <header>
       <a href="index.html"><h1 class="logo">Community Science Museum</h1></a>
-      <nav>
+
+      <!-- Hamburgermeny -->
+      <nav class="hamburger-menu" aria-label="Mobile menu">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+        <ul class="hamburger-top">
+          <li>
+            <label for="menu-toggle" class="menu-icon" aria-label="Open menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+                aria-hidden="true"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                />
+              </svg>
+            </label>
+          </li>
+        </ul>
+
+        <ul class="hamburger-list" aria-label="Menu">
+          <li class="hamburger-close-row">
+            <label for="menu-toggle" class="menu-icon" aria-label="Close menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+                aria-hidden="true"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                />
+              </svg>
+            </label>
+          </li>
+
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="education.html">Education and involvement</a></li>
+          <li><a href="visit.html">Visit Us</a></li>
+        </ul>
+
+        <label
+          for="menu-toggle"
+          class="menu-overlay"
+          aria-hidden="true"
+        ></label>
+      </nav>
+
+      <!-- Desktop meny -->
+      <nav class="desktop-nav" aria-label="Primary navigation">
         <ul class="desktop-menu">
           <li><a href="exhibitions.html" class="orange-cta">Exhibitions</a></li>
           <li>
@@ -37,25 +89,6 @@
             >
           </li>
           <li><a href="visit.html" class="orange-cta">Visit Us</a></li>
-        </ul>
-      </nav>
-
-      <!--Mulig nav under her skal med. Jeg aner ikke-->
-      <nav class="mobile-menu">
-  <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-  <label for="menu-toggle" class="hamburger">
-    <span></span><span></span><span></span>
-  </label>
-      <!--den som er over her nå....... jeg har ikke endret noen ting i den-->
-      <nav>
-        <ul class="hamburger-menu">
-          <li><a href="exhibitions.html">Exhibitions</a></li>
-          <li>
-            <a href="education.html"
-              >Education and involvement</a
-            >
-          </li>
-          <li><a href="visit.html">Visit Us</a></li>
         </ul>
       </nav>
     </header>
@@ -70,6 +103,7 @@
           >Exhibitions</a
         >
       </div>
+
       <section class="index-info">
         <h2>Explore together</h2>
         <p>
@@ -91,8 +125,10 @@
           only come to life at night when everyone's gone home).
         </p>
       </section>
+
       <section id="events">
         <h2 class="banner-events">Special Events and News</h2>
+
         <div class="index-events">
           <img
             src="images/dino-glass-fence.jpg"
@@ -107,12 +143,13 @@
             save a spot.
           </p>
         </div>
+
         <div class="index-events">
           <img
             src="images/museum-facade.jpg"
             alt="Facade of the Community Science Museum building, featuring many different colors and shapes in its architecture. It gives a modern and inviting look that resembles mosaics."
           />
-          <h3 class="index-events">Energetica Exhibition on Loan</h3>
+          <h3>Energetica Exhibition on Loan</h3>
           <p>
             On loan from the NEMO Science Museum in Amsterdam, the Energetica
             exhibition is coming to the Community Science Museum. It's a series
@@ -123,6 +160,7 @@
           </p>
         </div>
       </section>
+
       <section class="news">
         <h4>News</h4>
         <h5>Visiting Professor of Aeronautics</h5>
