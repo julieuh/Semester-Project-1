@@ -179,6 +179,7 @@ header a {
   gap: 1.5rem;
   padding: 10px 20px;
   margin: 0;
+  color: #000;
 }
 
 .current-page {
