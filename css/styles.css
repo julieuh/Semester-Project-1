@@ -13,6 +13,15 @@ header {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  header .banner {
+  flex-basis: 100%;
+  width: 100%;
+  display: block;
+  order: 2;
+}
+}
+
 @media (max-width: 767px) {
   header {
     flex-direction: row;
@@ -49,6 +58,7 @@ header a {
 .orange-cta {
   color: #ff8000;
 }
+
 
 /* ---------------- HAMBURGER MENU ---------------- */
 .hamburger-menu {
