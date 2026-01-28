@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,14 +26,69 @@
   <body>
     <header>
       <a href="index.html"><h1 class="logo">Community Science Museum</h1></a>
-      <ul class="desktop-menu">
-        <li><a href="exhibitions.html">Exhibitions</a></li>
-        <li><a href="education.html">Education and involvement</a></li>
-        <li><a href="visit.html" class="current-page">Visit Us</a></li>
-      </ul>
-      <div>
-        <h2 class="banner">Visit us</h2>
-      </div>
+      <!-- Hamburgermeny -->
+      <nav class="hamburger-menu" aria-label="Mobile menu">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+        <ul class="hamburger-top">
+          <li>
+            <label for="menu-toggle" class="menu-icon" aria-label="Open menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+                aria-hidden="true"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                />
+              </svg>
+            </label>
+          </li>
+        </ul>
+
+        <ul class="hamburger-list" aria-label="Menu">
+          <li class="hamburger-close-row">
+            <label for="menu-toggle" class="menu-icon" aria-label="Close menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+                aria-hidden="true"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                />
+              </svg>
+            </label>
+          </li>
+
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="education.html">Education and involvement</a></li>
+          <li><a href="visit.html">Visit Us</a></li>
+        </ul>
+
+        <label
+          for="menu-toggle"
+          class="menu-overlay"
+          aria-hidden="true"
+        ></label>
+      </nav>
+
+      <!-- Desktop meny -->
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <ul class="desktop-menu">
+          <li><a href="exhibitions.html" class="orange-cta">Exhibitions</a></li>
+          <li>
+            <a href="education.html" class="orange-cta"
+              >Education and involvement</a
+            >
+          </li>
+          <li><a href="visit.html" class="orange-cta">Visit Us</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="visit-location">
