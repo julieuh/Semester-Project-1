@@ -104,6 +104,7 @@ header a {
   display: flex;
   align-items: center;
   cursor: pointer;
+  fill: #ff8000;
 }
 
 .hamburger-menu a:hover,
