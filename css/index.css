@@ -131,6 +131,33 @@
 }
 
 
+/*Desktop grid for Special events and news*/
+.events-grid {
+  display: block; /* Mobil: vanlig stacking */
+  margin: 1rem;
+}
+
+/* Desktop */
+@media (min-width: 600px) {
+  .events-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    gap: 0.1rem;
+  }
+}
+
+.index-events img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+
+}
+
+
 
 @media (min-width: 250px) {
 
