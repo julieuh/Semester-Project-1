@@ -119,3 +119,31 @@ main p {
     max-width: 80vh;
   }
 }
+
+
+.space-images {
+  display: grid;
+  gap: 1rem;
+}
+
+.moon-top {
+  width: 100%;
+  display: block;
+  grid-column: 1 / -1; /* full bredde */
+}
+
+.side-img {
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .space-images {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .moon-top {
+    grid-column: 1 / -1; /* fortsatt full bredde */
+    margin-bottom: 0.5rem;
+  }
+}

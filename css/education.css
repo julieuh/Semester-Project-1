@@ -35,13 +35,21 @@ main {
     object-position: center;
   }
 
+  .researchers-grid img {
+    padding-bottom: 2rem;
+  }
+
+  .teachers-grid {
+    padding-top: 1rem;
+  }
+
   .researchers-grid h2,
 .teachers-grid h2 {
   margin-top: 0;
 }
   
   .researchers-grid img {
-    order: -1; /* flytter bildet til venstre */
+    order: -1; /* moves the picture to the left */
   }
 
   .kids-info {
