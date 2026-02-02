@@ -182,6 +182,22 @@ main p {
     height: 600px;
   }
 
+/*Ecology*/
+.ecology {
+    margin-bottom: 2rem;
+}
+
+.ecology div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.ecology img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
 }
 
 /*Evolution*/
@@ -190,8 +206,7 @@ main p {
   gap: 0.5rem;
 }
 
-/*Biology and Medicine*/
-
-/*Robotics and AI*/
-
-/*Ecology*/
+.top-link {
+    margin-left: 0rem;
+}
+}
