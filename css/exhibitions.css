@@ -209,4 +209,25 @@ main p {
 .top-link {
     margin-left: 0rem;
 }
+
+/*Biology and medicine*/
+
+.biology div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .biology img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+    margin-bottom: 0.5rem;
+  }
+
+  .biology .scull-img {
+    height: 600px;
+  }
 }
