@@ -121,21 +121,6 @@ main p {
 }
 
 
-.space-images {
-  display: grid;
-  gap: 1rem;
-}
-
-.moon-top {
-  width: 100%;
-  display: block;
-  grid-column: 1 / -1; /* full bredde */
-}
-
-.side-img {
-  width: 100%;
-  display: block;
-}
 
 @media (min-width: 768px) {
   .space-images {
@@ -143,7 +128,28 @@ main p {
   }
 
   .moon-top {
-    grid-column: 1 / -1; /* fortsatt full bredde */
+    grid-column: 1 / -1;
     margin-bottom: 0.5rem;
   }
+
+  .space-images {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.moon-top {
+  width: 100%;
+  display: block;
+  grid-column: 1 / -1;
+  margin-bottom: 0px;
+}
+
+.side-img {
+  width: 100%;
+  display: block;
+  height: 400px;
+ width: 100%;
+ object-fit: cover;
+ object-position: center;
+}
 }
