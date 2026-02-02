@@ -59,13 +59,17 @@ header a {
   color: #ff8000;
 }
 
+.desktop-menu a.active {
+  border-bottom: 4px solid #ff8000;
+  text-decoration: none;
+}
 
 /* ---------------- HAMBURGER MENU ---------------- */
 .hamburger-menu {
   background-color: #fff;
 }
 
-/* skjul checkbox */
+/* hide checkbox */
 .menu-toggle {
   position: absolute;
   opacity: 0;
