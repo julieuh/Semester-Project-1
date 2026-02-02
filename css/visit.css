@@ -14,18 +14,20 @@ main p {
     margin-bottom: 0px;
 }
 
-.visit-location img {
-    max-width: 100% auto;
-    display: inline-block;
-    vertical-align: bottom;
-}
-
-/*må fikses!*/
-
-.map {
-    margin-right: 1rem;
-}
-
 .space-over {
     margin-top: 2rem;
+}
+
+
+@media (min-width: 678px) {
+  .map {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.cafe-img {
+    max-height: 1000px;
 }

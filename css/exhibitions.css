@@ -40,7 +40,10 @@ main p {
     font-weight: 600;
     border-radius: 5px;
     padding: 0.6rem;
-    margin-left: 8rem;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -154,7 +157,7 @@ main p {
  object-position: center;
 }
 
-/*Evolution*/
+    /*Evolution*/
   .evolution div {
     grid-template-columns: 1fr 1fr;
   }
@@ -167,7 +170,7 @@ main p {
   height: 400px;
 }
 
-/*Robotics and AI*/
+    /*Robotics and AI*/
 .robotics div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -182,7 +185,7 @@ main p {
     height: 600px;
   }
 
-/*Ecology*/
+    /*Ecology*/
 .ecology {
     margin-bottom: 2rem;
 }
@@ -200,17 +203,12 @@ main p {
   height: 400px;
 }
 
-/*Evolution*/
+    /*Evolution*/
 .evolution div {
   display: grid;
   gap: 0.5rem;
 }
-
-.top-link {
-    margin-left: 0rem;
-}
-
-/*Biology and medicine*/
+    /*Biology and medicine*/
 
 .biology div {
     display: grid;

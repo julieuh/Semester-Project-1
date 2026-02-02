@@ -93,3 +93,12 @@ main {
 .internships {
     color: #4AC6FF;
 }
+
+@media (min-width: 768px) {
+  .rocket-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
