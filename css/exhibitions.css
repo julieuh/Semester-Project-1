@@ -123,6 +123,7 @@ main p {
 
 
 @media (min-width: 768px) {
+    /*Space*/
   .space-images {
     grid-template-columns: 1fr 1fr;
   }
@@ -152,4 +153,45 @@ main p {
  object-fit: cover;
  object-position: center;
 }
+
+/*Evolution*/
+  .evolution div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+.grid img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
 }
+
+/*Robotics and AI*/
+.robotics div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .robotics img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    height: 600px;
+  }
+
+}
+
+/*Evolution*/
+.evolution div {
+  display: grid;
+  gap: 0.5rem;
+}
+
+/*Biology and Medicine*/
+
+/*Robotics and AI*/
+
+/*Ecology*/
