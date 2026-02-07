@@ -6,7 +6,7 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 40vh; /*Change to grater value (70vh?) when moving on to bigger screens*/
+    min-height: 40vh;
     background-position: center;
     padding: 2rem;
 }
@@ -133,7 +133,7 @@
 
 /*Desktop grid for Special events and news*/
 .events-grid {
-  display: block; /* Mobil: vanlig stacking */
+  display: block;
   margin: 1rem;
 }
 
